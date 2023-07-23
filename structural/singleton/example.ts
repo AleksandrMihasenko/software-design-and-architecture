@@ -14,6 +14,7 @@ ConfigOne.update();
 
 
 // Using classes
+// variant 1
 class ConfigTwo {
   constructor() {
   }
@@ -27,5 +28,22 @@ class ConfigTwo {
   }
 }
 
-const instance = new ConfigTwo();
-Object.freeze(instance);
+const instanceOne = new ConfigTwo();
+Object.freeze(instanceOne);
+
+// variant 1
+let instanceTwo;
+
+class Singleton {
+  private static instance: Singleton;
+
+  constructor() {}
+
+  public static getInstance(): Singleton {
+    if (!Singleton.instance) {
+      Singleton.instance = new Singleton();
+    }
+
+    return Singleton.instance;
+  }
+}
