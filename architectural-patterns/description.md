@@ -1,0 +1,4 @@
+# Architectural Pattern
+
+An architectural pattern is a general, reusable solution to a commonly occurring problem in software architecture within a given context.
+Architectural patterns are similar to software design pattern but have a broader scope.
