@@ -5,7 +5,7 @@ with decoupled components that interact by remote procedure calls.
 A broker component is responsible for coordinating communication, such as forwarding requests,
 as well as for transmitting results and exceptions.
 
-![alt image](../../images/architectural-pattern/broker-pattern.svg)
+![alt image](../../images/architectural-pattern/broker.png)
 
 Broker Pattern Roles
 * Client: access server’s functionality by sending requests to the broker.
