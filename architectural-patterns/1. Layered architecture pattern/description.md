@@ -1,5 +1,8 @@
 # Layered Pattern
 
+This pattern is based on dividing the application into logical layers, where each layer has a specific responsibility
+and interacts with the layers above and below it.
+
 This pattern can be used to structure programs that can be decomposed into groups of subtasks,
 each of which is at a particular level of abstraction. Each layer provides services to the next higher layer.
 
