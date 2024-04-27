@@ -5,13 +5,11 @@ a server over a single, long-lived connection. This technology is particularly v
 instant data exchange and interactive features.
 
 ## Key Concepts:
-
 * WebSockets start with an initial handshake using the HTTP protocol, but once the connection is established, it switches to a WebSocket protocol.
 * Unlike HTTP, where the client initiates communication, WebSockets allow both the client and server to send messages at any time without waiting for a request.
 * WebSockets are supported in modern web browsers through the WebSocket API, which provides methods and events for managing WebSocket connections.
 
 ## WebSocket API methods:
-
 1. ```open``` - Used to open a WebSocket connection to the specified URL.
 2. ```close``` - Used to close the WebSocket connection.
 3. ```message``` - Used to handle incoming messages from the WebSocket server.
